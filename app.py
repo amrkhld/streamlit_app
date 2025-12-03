@@ -477,8 +477,8 @@ if st.session_state.df is not None:
     def summary_table(df, feature):
         return df[feature].describe()
     
-    # ============ TAB 6: VISUALIZATIONS & ANALYSIS ============
-    with tab6:
+    # ============ TAB 5: VISUALIZATIONS & ANALYSIS ============
+    with tab5:
         st.header("Visualizations & Statistical Analysis")
         
         st.subheader("📋 Column Names")
@@ -688,7 +688,7 @@ if st.session_state.df is not None:
                 st.write("**Number of Laptops per Operating System:**")
                 st.write(df.groupby('OpSys')['Price'].count())
     
-    # ============ TAB 7: DOWNLOAD ============
+    # ============ TAB 6: DOWNLOAD ============
     with tab6:
         st.header("Download Processed Data")
         
