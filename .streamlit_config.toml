@@ -1,0 +1,21 @@
+# Streamlit Configuration
+# Place this in ~/.streamlit/config.toml or use environment variables
+
+[theme]
+primaryColor = "#0099ff"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[client]
+showErrorDetails = true
+showWarningOnDirectExecution = true
+
+[logger]
+level = "info"
+
+[server]
+port = 8501
+headless = true
+runOnSave = true
